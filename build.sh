@@ -1,3 +1,3 @@
 #!/bin/sh
-docker pull voidlinux/voidlinux
-docker build -t voidlinux-bash .
+docker pull voidlinux/voidlinux-musl
+docker build -t voidlinux-musl-bash .
